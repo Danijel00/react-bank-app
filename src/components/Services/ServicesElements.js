@@ -61,6 +61,11 @@ export const ServicesCard = styled.div`
       rgba(1, 191, 120, 0.1) 25px 25px;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 490px) {
+    max-height: 100%;
+    padding: 0;
+  }
 `;
 
 export const ServicesIcon = styled.img`
